@@ -567,3 +567,7 @@ Redirected to http://www.example.com/posts
 Completed 302 Found in 10ms (ActiveRecord: 0.7ms)
 Started GET "/posts" for 127.0.0.1 at 2018-03-23 03:41:00 +0000
 Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
